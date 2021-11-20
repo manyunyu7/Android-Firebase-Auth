@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".AndroidOTPActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/send" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginTop="20dp"
+            android:text="OTP VERIFICATION"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:text="We will send you a secret OTP number via your SMS"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+62"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:inputType="number"
+                android:hint="88223738XXX"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="35dp"
+            android:background="@color/colorDivider"/>
+
+        <Button
+            android:id="@+id/btn_send_otp_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEND OTP"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/button_background"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
