@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/LearnAuthFirebase/app/src/main/res/drawable/button_background.xml" value="0.2203125" />
         <entry key="..\:/AndroidStudioProjects/LearnAuthFirebase/app/src/main/res/layout/activity_android_otpactivity.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/LearnAuthFirebase/app/src/main/res/layout/activity_base_app_container.xml" value="0.13802083333333334" />
+        <entry key="..\:/AndroidStudioProjects/LearnAuthFirebase/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LearnAuthFirebase/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/LearnAuthFirebase/app/src/main/res/layout/activity_receive_otpactivity.xml" value="0.1" />
       </map>
     </option>
   </component>

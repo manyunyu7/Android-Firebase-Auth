@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101573255806",
+    "project_id": "myotp-sumbangsih",
+    "storage_bucket": "myotp-sumbangsih.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101573255806:android:fea7d46f2fe56793176e2f",
+        "android_client_info": {
+          "package_name": "com.feylabs.learnauthfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101573255806-nfne5lgdo50m7vcq8epiqaksftlhnotc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVTPiZisQ8TuyM6h6R_MUetZ3sdqU9g1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101573255806-nfne5lgdo50m7vcq8epiqaksftlhnotc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
